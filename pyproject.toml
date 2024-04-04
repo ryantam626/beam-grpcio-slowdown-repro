@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "beam-grpcio-slowdown-repro"
+version = "0.1.0"
+description = ""
+authors = ["Ryan Tam <ryantam626@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+apache-beam = {extras = ["gcp"], version = "^2.55.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
